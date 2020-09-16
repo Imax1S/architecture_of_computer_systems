@@ -936,6 +936,7 @@ section '.rc' resource data readable
               FVIRTKEY+FNOINVERT+FCONTROL,'N',IDM_NEW,\
               FVIRTKEY+FNOINVERT+FCONTROL,'O',IDM_OPEN,\
               FVIRTKEY+FNOINVERT+FCONTROL,'S',IDM_SAVE,\
-              FVIRTKEY+FNOINVERT+FCONTROL,'A',ID_SELECT_ALL
+              FVIRTKEY+FNOINVERT+FCONTROL,'A',ID_SELECT_ALL,\
+              FVIRTKEY+FNOINVERT+FCONTROL+FSHIFT,'S',IDM_SAVE_AS
 
 ; -------------------------------------------------------------------------------------
