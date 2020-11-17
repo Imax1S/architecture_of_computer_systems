@@ -144,14 +144,14 @@ void checkResidualBA(vector<int> B, vector<int> A, vector<int> C) {
 
 int main()
 {
-	vector<int> A;
+	/*vector<int> A;
 	vector<int> B;
-	vector<int> C;
+	vector<int> C;*/
 
 	//C is a union of A and B
-	/*vector<int> A = { 1, 3, 3, 4 };
+	vector<int> A = { 1, 3, 3, 4 };
 	vector<int> B = { 1, 3, 3 };
-	vector<int> C = { 1, 3, 4 };*/
+	vector<int> C = { 1, 3, 4 };
 
 	//C is an intersection
 	/*vector<int> A = { 1, 3, 3, 4 };
@@ -168,7 +168,7 @@ int main()
 	vector<int> B = { 1, 3, 3, 4 };
 	vector<int> C = { 4 };*/
 
-	int sizeofA = rand() % 5 + 1;
+	/*int sizeofA = rand() % 5 + 1;
 	int sizeofB = rand() % 5 + 1;
 	int sizeofC = rand() % 5 + 1;
 
@@ -191,7 +191,7 @@ int main()
 	{
 		C.push_back(rand() % 10 + 1);
 		cout << C[i] << " ";
-	}
+	}*/
 
 	cout << endl;
 
